@@ -1,0 +1,40 @@
+html{
+  background: linear-gradient(68.15deg, #456156 16.62%, #453155 85.61%);
+  color: white;
+}
+
+.topo{
+  display: flex;
+}
+.acess{
+  display: flex;
+}
+.acess_acess{
+  padding: 0px 5px;
+  display: flex;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+.topo_img{
+  height: 19px;
+}
+.htmlcss{
+  display: flex;
+}
+.htmlcss_htmlcss{
+  padding: 0px 5px;
+  display: flex;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+
+main{
+  background-color: black;
+  width: 70%;
+  height: 600px;
+  margin: auto;
+}
