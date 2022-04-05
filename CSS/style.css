@@ -1,10 +1,18 @@
+*{
+  
+}
 html{
   background: linear-gradient(68.15deg, #456156 16.62%, #453155 85.61%);
   color: white;
 }
+body{
+  margin: 0px; padding: 0px; height: 0vmax;
+}
 
 .topo{
   display: flex;
+  margin: 5px;
+  cursor:default;
 }
 .acess{
   display: flex;
@@ -33,24 +41,118 @@ html{
 }
 
 main{
-  width: 70%;
-  height: 550px;
+  width: 800px;
+  height: 450px;
   margin: auto;
-  margin-top: 50px;
+  margin-top: 60px;
   display: flex;
+  box-shadow: 9px 9px 90px #a78af2;
+  padding: 30px;
+  overflow-y: auto;
+  border-radius: 12px;
 }
 .formulario{
   flex: 1;
-  background-color: yellow;
+  color: #a78af2;
+  font-family: 'Roboto', sans-serif;
 }
 .slogan{
   display: flex;
+  width: 300px;
   flex-direction: column;
   align-items: flex-end;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 22px;
+  font-family: 'Roboto', sans-serif;
+  color: #a78af2;
 }
 .slogan img{
-  width: auto;
-  height: 130px;
+  width: 220px;
+  height: auto;
   flex-direction: end;
+}
+.image{
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+}
+.image:hover{
+  cursor: pointer;
+}
+.formulario_inicio{
+  display: flex;
+  margin: 5px;
+  padding: 5px;
+  font-family: 'Roboto', sans-serif;
+}
+.login{
+  margin: 5px;
+  padding: 5px;
+}
+.cadastro{
+  margin: 5px;
+  padding: 5px;
+  color: white;
+  border-bottom: 5px solid #a78aff;
+}
+#nomecompleto{
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px solid #a78aff;
+  margin: 10px;
+  width: 450px;
+  outline: 0;
+}
+#nomedousuario{
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px solid #a78aff;
+  margin: 10px;
+  width: 450px;
+  outline: 0;
+}
+#email{
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px solid #a78aff;
+  margin: 10px;
+  width: 450px;
+  outline: 0;
+}
+#password{
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px solid #a78aff;
+  margin: 10px;
+  width: 450px;
+  outline: 0;
+}
+.theend1{
+  font-size: 12px;
+}
+.theend2{
+  margin: 10px;
+  font-size: 12px;
+}
+#termos{
+  margin-left: 10px;
+}
+input::placeholder {
+  color: #a78aff;
+}
+input::content {
+  color: transparent;
+}
+input:focus::placeholder {
+  color: transparent;
+}
+.cadastrar{
+  cursor: pointer;
+  background: linear-gradient(68.15deg, #456156 16.62%, #453155 85.61%);
+  padding: 10px;
+  margin: 10px;
+  font-size: 12px;
+  color: azure;
+}
+.cadastrar:hover{
+  background: linear-gradient(68.15deg, #456169 20.99%, #453169 86.99%);
 }
