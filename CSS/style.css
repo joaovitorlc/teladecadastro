@@ -73,7 +73,7 @@ main{
 .image{
   width: 30px;
   height: 30px;
-  margin: 5px;
+  margin: 10px 0px 10px;
 }
 .image:hover{
   cursor: pointer;
@@ -106,7 +106,7 @@ form{
   margin-bottom: 4%;
   border-bottom: 2px solid grey;
   width: 96%; 
-  float: right; 
+  float: center; 
 }
 #nomecompleto{
   background-color: transparent;
@@ -136,11 +136,10 @@ form{
   font-size: 12px;
 }
 .theend2{
-  margin: 10px;
   font-size: 12px;
 }
 #termos{
-  margin-left: 10px;
+
 }
 input::placeholder {
   color: #a78aff;
@@ -155,7 +154,6 @@ input:focus::placeholder {
   cursor: pointer;
   background: linear-gradient(68.15deg, #456156 16.62%, #453155 85.61%);
   padding: 10px;
-  margin: 10px;
   font-size: 12px;
   color: azure;
 }
