@@ -160,3 +160,49 @@ input:focus::placeholder {
 .cadastrar:hover{
   background: linear-gradient(68.15deg, #456169 20.99%, #453169 86.99%);
 }
+
+
+/*Responsividade*/
+
+
+@media (max-width:900px) {
+  main{
+    width: 550px;
+  }
+}
+
+@media (max-width:650px) {
+  main{
+    flex-direction: column-reverse;
+    width: 400px;
+  }
+  .slogan{
+    margin: auto;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  .formulario{
+    padding: 0px 50px;
+    padding-bottom: 75px;
+  }
+}
+
+@media (max-width:500px) {
+  main{
+    width: 300px;
+  }
+  .slogan{
+    font-size: 20px;
+  }
+  .formulario{
+    padding: 0px;
+  }
+}
+
+@media (max-width:400px) {
+  main{
+    width: 280px;
+    padding: 20px;
+    padding-bottom: 60px;
+  }
+}
