@@ -175,21 +175,29 @@ input:focus::placeholder {
   main{
     flex-direction: column-reverse;
     width: 400px;
+    height: auto;
+    padding: 0px;
   }
   .slogan{
     margin: auto;
     align-items: center;
     margin-bottom: 50px;
+    margin-top: 50px;
   }
   .formulario{
     padding: 0px 50px;
     padding-bottom: 75px;
   }
+  footer{
+    height: 100px;
+  }
 }
 
 @media (max-width:500px) {
   main{
-    width: 300px;
+    width: 350px;
+    padding: 20px;
+    padding-bottom: 70px;
   }
   .slogan{
     font-size: 20px;
@@ -201,8 +209,12 @@ input:focus::placeholder {
 
 @media (max-width:400px) {
   main{
-    width: 280px;
+    width: 260px;
     padding: 20px;
     padding-bottom: 60px;
+  }
+  .slogan{
+    width: 250px;
+    font-size: 18px;
   }
 }
